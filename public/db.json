@@ -1,0 +1,49 @@
+{
+    "events": [
+        {
+            "event_name": "Tech Innovators Meetup",
+            "event_date": "2024-12-05",
+            "event_time": "10:00 AM",
+            "event_location": "San Francisco, California",
+            "event_description": "Meetup for tech innovators to discuss the latest trends and innovations in AI,robotics.",
+            "event_image_url": "https://cdn.prod.website-files.com/6593c9a7f9ab9dc8b1763db2/65b0566852bdf30e0a96201c_tech-events-meetups-hero-image.jpg",
+            "event_capacity": 150
+        },
+        {
+            "event_name": "Art & Soul Exhibition",
+            "event_date": "2024-11-30",
+            "event_time": "6:00 PM",
+            "event_location": "Downtown Art Gallery, New York",
+            "event_description": "An evening of live music featuring classical and modern bands under the open sky.",
+            "event_image_url": "https://static.wixstatic.com/media/853c03_ecf7f6ac9aa14a47bcb836d4b580cb78~mv2.jpg/v1/fill/w_568,h_484,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/853c03_ecf7f6ac9aa14a47bcb836d4b580cb78~mv2.jpg",
+            "event_capacity": 200
+        },
+        {
+            "event_name": "Food Fiesta 2024",
+            "event_date": "2024-12-10",
+            "event_time": "12:00 PM",
+            "event_location": "Riverside Pavilion, Texas",
+            "event_description": "A food festival celebrating cuisines from around the world with live cooking shows and tastings.",
+            "event_image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_bS6FVevWOr84NeH457pm3gu-HvyWvyegw&s",
+            "event_capacity": 300
+        },
+        {
+            "event_name": "Startup Pitch Night",
+            "event_date": "2024-11-28",
+            "event_time": "5:30 PM",
+            "event_location": "TechHub Auditorium, Boston",
+            "event_description": "Budding entrepreneurs pitch their ideas to investors for potential funding opportunities.",
+            "event_image_url": "https://cdn-az.allevents.in/events7/banners/f66ba7058098b36e936a136d886049de15b4f2c6a4cc5fed99ce4c4e8102d00e-rimg-w1200-h600-dc5e2f46-gmir.jpg?v=1730195627",
+            "event_capacity": 75
+        },
+        {
+            "event_name": "Holiday Movie Marathon",
+            "event_date": " 2024-12-24",
+            "event_time": " 2:00 PM",
+            "event_location": "Cineplex Hall, Seattle",
+            "event_description": " Celebrate the festive season with back-to-back screenings of classic and new holiday movies.",
+            "event_image_url": "https://img.freepik.com/premium-photo/55-holiday-movie-marathon_1034820-52730.jpg",
+            "event_capacity": 120
+        }  
+    ]
+}

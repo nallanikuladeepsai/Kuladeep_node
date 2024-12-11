@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kuladeep_Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <div class="container">
+        <header class="navigation-bar">
+            <a href="javascript:void(0);" class="menu" id="menu" onclick="menu()">
+                <i class="fa fa-bars"></i></a>
+            </a>
+            <nav id="nav">
+                <a href="#about">About</a>
+                <a href="#education">Education</a>
+                <a href="#projects">Projects</a>
+                <a href="#work-experience">Work Experience</a>
+                <a href="#blogs">Blogs</a>
+                <a href="#contact">Contact</a>
+            </nav>
+        </header>
+
+        <section class="profile-about">
+            <div id="image">
+                <img src="profile.jpeg" alt="profile">
+                <h4>KuladeepSai Nallani</h4>
+            </div>
+            <div id="about">
+                <h4>About</h4>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos ratione eaque aliquam! Numquam molestiae
+                ipsam eum ducimus! Reprehenderit consectetur distinctio facere iusto molestias nesciunt architecto
+                dicta, in explicabo vel similique!Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos ratione
+                eaque aliquam!
+            </div>
+        </section>
+
+        <section class="educations">
+            <h4>Education</h4>
+            <div id="education">
+                <div>
+                    <img src="https://img.icons8.com/?size=100&id=79387&format=png&color=000000"
+                        alt="Graduation" class="education-image">
+                    <h3>Graduation</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                </div>
+                <div>
+                    <img src="https://img.icons8.com/?size=100&id=79387&format=png&color=000000"
+                        alt="Undergraduate" class="education-image">
+                    <h3>UnderGrad</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="Project_row">
+            <h4>Projects</h4>
+            <div id="projects">
+                <div>
+                    <img src="https://www.shutterstock.com/shutterstock/photos/2046318389/display_1500/stock-vector-project-task-management-and-effective-time-planning-tools-project-development-icon-d-vector-2046318389.jpg"
+                        alt="Project 1" class="project-image">
+                    <h3>Project 1</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                </div>
+                <div>
+                    <img src="https://www.shutterstock.com/shutterstock/photos/2046318389/display_1500/stock-vector-project-task-management-and-effective-time-planning-tools-project-development-icon-d-vector-2046318389.jpg"
+                        alt="Project 2" class="project-image">
+                    <h3>Project 2</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                </div>
+            </div>
+        </section>
+
+        <div id="work-experience">
+            <h4>Experience</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae saepe reprehenderit minus accusamus
+                nesciunt ab, quod expedita quaerat corrupti sed esse rerum beatae odio alias dicta nemo illo? Maiores,
+                obcaecati?. Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae saepe reprehenderit minus
+                accusamus nesciunt ab, quod expedita quaerat corrupti sed esse rerum beatae odio alias dicta nemo illo?
+                Maiores, obcaecati?. Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae saepe
+                reprehenderit minus accusamus nesciunt ab, quod expedita quaerat corrupti sed esse rerum beatae odio
+                alias dicta nemo illo? Maiores, obcaecati?.Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Molestiae saepe reprehenderit minus accusamus nesciunt ab, quod expedita quaerat corrupti sed esse rerum
+                beatae odio alias dicta nemo illo? Maiores, obcaecati?</p>
+        </div>
+
+        <section class="blogs_row">
+            <h4>Blogs</h4>
+            <div id="blogs">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam necessitatibus ipsa, praesentium
+                    laborum aut.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam necessitatibus ipsa, praesentium
+                    laborum aut.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam necessitatibus ipsa, praesentium
+                    laborum aut.</p>
+            </div>
+        </section>
+
+        <footer id="contact">
+            <h4>Contacts</h4>
+            <div class="contact-icons">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQKrFhY-ljA-u7J5IMWeTv8zmpBx4PP9nQMw&s"
+                    alt="Facebook" class="contact-icons">
+                <img src="https://cdn1.iconfinder.com/data/icons/logotypes/32/circle-linkedin-512.png" alt="LinkedIn"
+                    class="contact-icons">
+                <img src="https://louisville.edu/enrollmentmanagement/images/phone-icon/image" alt="Phone"
+                    class="contact-icons">
+                <img src="https://thumb.ac-illust.com/01/018416a708cc44b0a2a89bfc92e2dbad_t.jpeg" alt="Email"
+                    class="contact-icons">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/5/5e/WhatsApp_icon.png" alt="Whatsapp"
+                    class="contact-icons">
+            </div>
+        </footer>
+    </div>
+    <style>
+        body {
+            background-color: #1a1a1a;
+            color: #e0e0e0;
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 20px;
+            display: grid;
+            grid-template-columns: 1fr;
+            grid-template-rows:
+                "navigation-bar"
+                "profile-about"
+                "educations"
+                "Project_row"
+                "work-experience"
+                "blogs_row"
+                "contact";
+            gap: 1em;
+        }
+
+        #menu {
+            display: none;
+        }
+
+        .navigation-bar {
+            background-color: #2c2c2c;
+            padding: 10px;
+        }
+
+        .navigation-bar nav {
+            text-align: center;
+        }
+
+        .navigation-bar a {
+            text-decoration: none;
+            color: #ffcc00;
+            font-weight: bold;
+            margin: 0 15px;
+            display: inline-block;
+        }
+
+        .profile-about {
+            margin: 0;
+            display: grid;
+            grid-template-columns: 0.4fr 2fr;
+        }
+
+        #image img {
+            width: 150px;
+            height: auto;
+            padding-top: 10px;
+        }
+
+        #about {
+            background-color: #333333;
+            border-radius: 5px;
+            padding: 15px;
+            margin-top: 10px;
+        }
+
+        .educations,
+        .Project_row,
+        .blogs_row,
+        #work-experience,
+        #contact {
+            background-color: #2c2c2c;
+            border-radius: 5px;
+        }
+
+        #education,
+        #projects,
+        #blogs {
+            text-align: center;
+        }
+
+        .education-image,
+        .project-image {
+            width: 50px;
+            height: 50px;
+            vertical-align: middle;
+            margin-right: 8px;
+        }
+
+        #education div,
+        #projects div {
+            margin: 1em;
+            padding: 1em 2em;
+            background-color: #444444;
+            border-radius: 5px;
+            font-size: 15px;
+            vertical-align: top;
+        }
+
+        #education,
+        #projects {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 0.5em;
+        }
+
+        #education h3,
+        #projects h3 {
+            margin: 0;
+            color: #ceb039;
+        }
+
+        h4 {
+            margin: 10px;
+            color: #ffcc00;
+        }
+
+        #work-experience p {
+            padding-left: 10px;
+            padding-bottom: 15px;
+        }
+
+
+        .blogs_row p {
+            padding-left: 10px;
+        }
+
+        #blogs {
+            margin-bottom: 10px;
+        }
+
+        .contact-icons {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+            gap: 0.5em;
+            margin: 0 1em;
+        }
+
+        .contact-icons img {
+            width: 40px;
+            height: auto;
+            padding: 20px;
+        }
+
+        :target {
+            border: 3px solid #ffcc00;
+            padding: 15px;
+            background-color: #333333;
+        }
+
+        @media screen and (max-width:500px) {
+
+            #education,
+            #projects,
+            .profile-about {
+                grid-template-columns: 1fr;
+                justify-items: center;
+            }
+
+            .contact-icons {
+                margin: 0;
+                justify-items: center;
+            }
+
+            .contact-icons img {
+                width: 30px;
+                padding: 10px;
+            }
+
+            #menu {
+                display: block;
+            }
+
+            #nav {
+                display: none;
+            }
+
+            #nav a {
+                display: block;
+                padding: 0.5em;
+            }
+        }
+    </style>
+    <script>
+        function menu() {
+            var menuBar = document.getElementById("nav");
+            if (menuBar.style.display == 'none') {
+                menuBar.style.display = 'block';
+            }
+            else {
+                menuBar.style.display = 'none';
+            }
+        }
+    </script>
+</body>
+
+</html>
